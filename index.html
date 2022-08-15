@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <p>ind the hidden word - guess a letter by entering it on your keyboard</p>
+    <div  class="game-container">
+        <svg height="250" width="250" class="figure-container">
+            <!-- this is the hanging pole -->
+            <line x1="60" y1="20" x2="140" y2="20" />
+            <line x1="140" y1="20" x2="140" y2="50" />
+            <line x1="60" y1="20" x2="60" y2="230" />
+            <line x1="30" y1="230" x2="90" y2="230" /> 
+            <!-- this is the hangman -->
+            <!-- This is the head -->
+            <circle cx="140" cy="70" r="20" />
+            <!-- this the body -->
+            <line x1="140" y1="90" x2="140" y2="150" />
+            <!-- these are the arms -->
+            <line x1="140" y1="100" x2="110" y2="150" />
+            <line x1="140" y1="100" x2="170" y2="150" />
+            <!-- these are the legs -->
+            <line x1="140" y1="150" x2="110" y2="190" />
+            <line x1="140" y1="150" x2="170" y2="190" />
+
+            
+        </svg>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
